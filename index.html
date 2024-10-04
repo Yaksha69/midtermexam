@@ -3,37 +3,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="html.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>page 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>AMD RX7000 SERIES</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary  " data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand text-danger" href="#">Destroy</a>
+              <a class="navbar-brand text-danger" href="#navbarSupportedContent">AMD</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item dropdown d-flex">
-                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Shop
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Processor</a></li>
-                      <li><a class="dropdown-item" href="#">MotherBoard</a></li>
-                      <li><a class="dropdown-item" href="#">Memory</a></li>
-                      <li><a class="dropdown-item" href="#">Graphics Card</a></li>
-                      <li><a class="dropdown-item" href="#">Peripherals</a></li>
-                    </ul>
+                    <a class="nav-link active" aria-current="page" href="#navbarSupportedContent">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#showcase">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#opinion">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#price">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#conact">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#foot">About</a>
+                  </li>
                 </ul> 
               </div>
             </div>
@@ -43,346 +45,310 @@
       <section class="hero-section h-75 bg-dark" id="video-hero">
         <div class="hero">
             <video autoplay muted loop class="hero-video">
-                <source  class="d-block w-100" src="assets/pcrolls1.mp4" type="video/mp4">
+                <source  class="d-block w-100" src="assets/rxvideo.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="overlay-content">
               <h1>Need More Speed?</h1>
               <p>Just buy RGB</p>
-              <a class="btn-hero btn-outline-light" href="#items" role="button">Shop Now</a>
           </div>
         </div>
       </section>
 
       <section id="Featured" class="Featured">
-        <div class="mt-2">
-          <h1>Featured</h1>
-        </div>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <div class="Fimage-container">
+          <img src="/assets/featrx.avif" class="img-fluid" alt="...">
+          <div class="Foverlay-content">
+            <div class="Fcontainer">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h1>Game</h1>
+                  <p>Advanced AMD RDNA 3 Compute Units featuring Raytracing and AI Acceleration</p>
+                </div>
+                <div class="col">
+                  <h1>Stream</h1>
+                  <p>Redesigned media engine featuring AV1 Encoding1, optimized for OBS</p>
+                </div>
+                <div class="col">
+                  <h1>Advance</h1>
+                  <p>Advanced desktop experiences with AMD Smart technologies & AMD Software2</p>
+                </div>
+              </div>
+            </div>
           </div>
-        
-          <!-- Carousel Inner -->
-          <div class="carousel-inner">
-            <!-- First Slide (Active) -->
-            <div class="carousel-item active">
-              <div class="row justify-content-center">
-                <!-- First Card -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card custom-card" style="width: 18rem;">
-                    <img src="assets/motherboard.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Gigabyte H510M-K v2 Socket LGA 1200 Ddr4 Motherboard</h5>
-                      <p class="card-text">The Gigabyte H510M-K v2 motherboard is designed for Socket LGA 1200 CPUs and DDR4 RAM, 
-                                           it offers seamless performance and reliable connectivity.</p>
-                      <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now </button>
-                    </div>
-                  </div>
-                </div>
-                <!-- Second Card -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card custom-card" style="width: 18rem;">
-                    <img src="assets/inteli9.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Intel I9</h5>
-                      <p class="card-text">Intel Core i9-14900K Processor! With Raptor Lake architecture and LGA 1700 socket, it boasts a blazing 3.20GHz speed for unparalleled performance.
-                                           Ideal for gaming and multitasking. </p>
-                      <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
+        </div>
+        <section id="showcase">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/pic12.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/pic21.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/kf-card.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/whiterx.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/blackrx.png" class="d-block w-100" alt="...">
               </div>
             </div>
-        
-            <!-- Second Slide -->
-            <div class="carousel-item">
-              <div class="row justify-content-center">
-                <!-- Third Card -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card custom-card" style="width: 18rem;">
-                    <img src="assets/4070ti.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">4070ti</h5>
-                      <p class="card-text">ultimate gaming prowess with the MSI RTX 4070Ti Gaming X Slim White. Boasting 12GB GDDR6x memory on a 192-bit interface,
-                                         this sleek powerhouse ensures unparalleled graphics performance.</p>
-                      <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <!-- Fourth Card -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card custom-card" style="width: 18rem;">
-                    <img src="assets/psu.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Corsair AX1600i</h5>
-                      <p class="card-text">The CORSAIR AX1600i is the ultimate digital ATX power supply,
-                         built using only the best components and state-of-the-art gallium nitride transistors to deliver more than 94% efficiency. </p>
-                      <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        </div>
-        
-        <section id="items" class="items">
-          <h1><u>Products</u></h1>
-          <div class="container text-center" >
-            <div class="row justify-content-start">
-              <div class="col">
-                <div class="col-sm-6 col-md-4 col-md-3">
-                  <div class="card-item item-card mt-5 ms-5 " style="width: 18rem;">
-                    <img src="assets/psu.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Corsair AX1600i</h5>
-                      <p class="card-text">Best PSU on the market</p>
-                      <p class="card-text">Price</p>
-                      <p class="card-discount"><del>20,000</del></p>
-                      <p class="card-price">15,000</p>
-                      <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="col-sm-6 col-md-4 col-md-3">
-                  <div class="card-item item-card mt-5 ms-5 " style="width: 18rem;">
-                    <img src="assets/inteli9.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Intel I9</h5>
-                      <p class="card-text">Best CPU on the market</p>
-                      <p class="card-text">Price</p>
-                      <p class="card-discount"><del>20,000</del></p>
-                      <p class="card-price">45,000</p>
-                      <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="col-sm-6 col-md-4 col-md-3">
-                  <div class="card-item item-card mt-5 ms-5 " style="width: 18rem;">
-                    <img src="assets/motherboard.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Gigabyte H510M-K v2 Socket LGA 1200</h5>
-                      <p class="card-text">Best MotherBoard on the market</p>
-                      <p class="card-text">Price</p>
-                      <p class="card-discount"><del>20,000</del></p>
-                      <p class="card-price">5,000</p>
-                      <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="col-sm-6 col-md-4 col-md-3">
-                  <div class="card-item item-card mt-5 ms-5 " style="width: 18rem;">
-                    <img src="assets/ram.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Corsair Vengeance Pro SL 16gb</h5>
-                      <p class="card-text">Best RAM on the market</p>
-                      <p class="card-text">Price</p>
-                      <p class="card-discount"><del>8,000</del></p>
-                      <p class="card-price">4,000</p>
-                      <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="col-sm-6 col-md-4 col-md-3">
-                  <div class="card-item item-card mt-5 ms-5 " style="width: 18rem;">
-                    <img src="assets/ryzen9.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">AMD Ryzen 9</h5>
-                      <p class="card-text">Best Cpu on the market</p>
-                      <p class="card-text">Price</p>
-                      <p class="card-discount"><del>20,000</del></p>
-                      <p class="card-price">15,000</p>
-                      <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="col-sm-6 col-md-4 col-md-3">
-                  <div class="card-item item-card mt-5 ms-5 " style="width: 18rem;">
-                    <img src="assets/ssd.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Samsung 970 EVO Plus</h5>
-                      <p class="card-text">Best SSD on the market</p>
-                      <p class="card-text">Price</p>
-                      <p class="card-discount"><del>20,000</del></p>
-                      <p class="card-price">15,000</p>
-                      <button type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#buyNowModal">
-                        Buy Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade" id="buyNowModal" tabindex="-1" aria-labelledby="buyNowModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="buyNowModalLabel">Buy Now:</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <!-- Purchase Form -->
-                  <form class="row g-3">
-                    <div class="col-md-4">
-                      <label for="validationDefault01" class="form-label">First name</label>
-                      <input type="text" class="form-control" id="validationDefault01"  required>
-                    </div>
-                    <div class="col-md-4">
-                      <label for="validationDefault02" class="form-label">Last name</label>
-                      <input type="text" class="form-control" id="validationDefault02"  required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="validationDefault03" class="form-label">Email</label>
-                      <input type="text" class="form-control" id="validationDefault03" required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="validationDefault03" class="form-label">Shipping Address</label>
-                      <input type="text" class="form-control" id="validationDefault03" required>
-                    </div>
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                        <label class="form-check-label" for="invalidCheck2">
-                          Agree to terms and conditions
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button class="btn btn-light" data-bs-dismiss="modal" >Cancel </button>
-                      <button class="btn btn-danger" type="submit" href="/index.html">Order Now</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
       <section id="opinion" class="onion">
-        <h1 class="text-center"><u>Testimonials</u></h1>
+        <h1 class="text-center text-light"><u>Testimonials</u></h1>
         <div class="container text-center">
           <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
               <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <div style="position: relative; width: 100%; height: 300px;">
-                      <img src="/assets/pita.jpg" alt="Avatar" style="width: 100%; height: 100%;">
-                      <div class="whitebox">
-                        <h1 style="margin: 0;">Peter Griffin</h1>
+                <input type="checkbox" id="card-toggle-1" />
+                <label for="card-toggle-1">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div style="position: relative; width: 100%; height: 300px;">
+                        <img src="/assets/pita.jpg" alt="Avatar" style="width: 98%; height:80%; margin-top: 5px;">
+                        <div class="whitebox">
+                          <h4>Peter Griffin</h4>
+                        </div>
                       </div>
                     </div>
+                    <div class="flip-card-back" style="position: relative; width: 100%; height: 300px;">
+                      <h5>GIGABYTE AORUS Radeon™ RX 7900 XTX</h5>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <p class="text-center m-2">A new efficiency champion </p>
+                    </div>
                   </div>
-                  <div class="flip-card-back" style="position: relative; width: 100%; height: 300px;">
-                    <h1>NVIDIA GeForce RTX 4090</h1>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <p class="text-center m-2">
-                      "Ang NVIDIA GeForce RTX 4090 ay tunay na makapangyarihan. Hindi ko pa naranasan ang ganitong kakinis na 4K gaming performance. Ang ray tracing ay ibang-iba, at kapag pinagsama sa DLSS 3.0, ito ay isang pangarap para sa mga hardcore gamer at content creator. Sulit ang bawat piso!"
-                    </p>
-                  </div>
-                </div>
+                </label>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
               <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <div style="position: relative; width: 100%; height: 300px;">
-                      <img src="/assets/clev.png" alt="Avatar" style="width: 100%; height: 100%;">
-                      <div class="whitebox">
-                        <h1 style="margin: 0;">Cleveland Brown</h1>
+                <input type="checkbox" id="card-toggle-2" />
+                <label for="card-toggle-2">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div style="position: relative; width: 100%; height: 300px;">
+                        <img src="/assets/cleve.png" alt="Avatar" style="width: 98%; height:80%; margin-top: 5px;">
+                        <div class="whitebox">
+                          <h4>Cleveland Brown</h4>
+                        </div>
                       </div>
                     </div>
+                    <div class="flip-card-back" style="position: relative; width: 100%; height: 300px;">
+                      <h5 >XFX Quicksilver AMD Radeon RX 7900GRE</h5>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <p class="text-center m-2"> Mas makapangyarihan kaysa sa inaakala natin.</p>
+                    </div>
                   </div>
-                  <div class="flip-card-back" style="position: relative; width: 100%; height: 300px;">
-                    <h1>Intel Core i9-13900K</h1>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <p class="text-center m-2">
-                      "Ang Intel Core i9-13900K ay isang halimaw pagdating sa multitasking at gaming. Bumaba ng sobra ang oras ng pag-render ko, at kayang-kaya nito ang maraming mabibigat na programa nang walang kahirap-hirap. Highly recommended para sa mga naghahanap ng pangmalakasang performance!"
-                    </p>
-                  </div>
-                </div>
+                </label>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
               <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <div style="position: relative; width: 100%; height: 300px;">
-                      <img src="/assets/cart.jpg" alt="Avatar" style="width: 100%; height: 100%;">
-                      <div class="whitebox">
-                        <h1 style="margin: 0;">Test Word</h1>
+                <input type="checkbox" id="card-toggle-3" />
+                <label for="card-toggle-3">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div style="position: relative; width: 100%; height: 300px;">
+                        <img src="/assets/cart.jpg" alt="Avatar" style="width: 98%; height:80%; margin-top: 5px;">
+                        <div class="whitebox">
+                          <h4>Eric Cartman</h4>
+                        </div>
                       </div>
                     </div>
+                    <div class="flip-card-back" style="position: relative; width: 100%; height: 300px;">
+                      <h5>XFX Mercury AMD Radeon RX 7900 XTX</h5>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <p class="text-center m-2">
+                        Ang mga apps para sa creators... lubos na nilalamangan ang bawat ibang card
+                      </p>
+                    </div>
                   </div>
-                  <div class="flip-card-back" style="position: relative; width: 100%; height: 300px;">
-                    <h1>Samsung 980 Pro</h1>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <p class="text-center m-2">
-                      "Ang Samsung 980 Pro ay nagbago nang lubusan ang aking PC. Halos instant na ang boot times at napakabilis ng paglipat ng malalaking files. Perpekto ito para sa gaming, zero lag sa load times. Isang kailangang upgrade para sa kahit sinong PC user!"
-                    </p>
-                  </div>
-                </div>
+                </label>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="conact">
-        
-
+      <section id="price">
+        <div class="riceup">
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <h1 class="riceh1">AMD Ryzen™ and Radeon™ Game Bundle</h1>
+                <p class="ricep">Get 2 games when you buy select AMD Ryzen™ processors, 
+                  AMD Radeon™ RX Series graphics cards or AMD configured systems.*</p>
+              </div>
+              <div class="col">
+                <img src="/assets/promo.avif" class=" promo" alt="...">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="Pimage-container">
+          <h3 class="text-light d-flex justify-content-center">Products</h3>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/assets/2000.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">AORUS Radeon™ RX 7900 XTX RGB Edition</h5>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><del>Price: ₱66,950.00</del></li>
+                    <li class="list-inline-item text-danger">20% off</li>
+                  </ul>
+                  <p>Price: ₱53,560.00</p>
+                  <button type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#buyNowModal">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/assets/pic12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">XFX Quicksilver AMD Radeon RX 7900GRE</h5>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><del>Price: 55,223.00</del></li>
+                    <li class="list-inline-item text-danger">20% off</li>
+                  </ul>
+                  <p>Price: ₱44,178.40</p>
+                  <button type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#buyNowModal">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/assets/pic21.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">XFX Mercury AMD Radeon RX 7900 XTX</h5>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><del>Price: 55,223.00</del></li>
+                    <li class="list-inline-item text-danger">20% off</li>
+                  </ul>
+                  <p>Price: ₱44,178.40</p>
+                  <button type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#buyNowModal">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="buyNowModal" tabindex="-1" aria-labelledby="buyNowModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="buyNowModalLabel">Buy Now:</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Purchase Form -->
+              <form class="row g-3">
+                <div class="col-md-4">
+                  <label for="validationDefault01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationDefault01"  required>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationDefault02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationDefault02"  required>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationDefault03" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="validationDefault03" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationDefault03" class="form-label">Shipping Address</label>
+                  <input type="text" class="form-control" id="validationDefault03" required>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-light" data-bs-dismiss="modal" >Cancel </button>
+                  <button class="btn btn-danger" type="submit" href="/index.html">Order Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
       </section>
-      
+      <section class="contacts" id="conact">
+        <div class="form-container">
+            <h2>Your Details</h2>
+            <form action="#" method="POST">
+
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section id="foot" class="foot">
+      <footer class="bg-dark text-light p-5 text-center">
+        <h2 class="display-6 fw-light mb-4 fw-bold">Visit Us</h2>
+        <a href="https://www.xfxforce.com/"> <img src="/assets/logo.png" alt="G-SHOCK CASIO Logo" class="mb-4" style="width: 150px;"> </a>
+      <div class="d-flex justify-content-center my-3">
+       <a href="https://www.facebook.com/AMDRyzenRadeon/" target="_blank" class="text-white me-3">
+        <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="https://www.youtube.com/@AMD" target="_blank" class="text-white me-3">
+        <i class="fab fa-youtube fa-2x"></i> 
+        </a>
+        <a href="https://www.instagram.com/amd/" target="_blank" class="text-white">
+        <i class="fab fa-instagram fa-2x"></i>
+        </a>
+      </div>
+      <div class="link-container1"></div>
+        <a class="nav-link1 text-light fw-light pt-3 " href="https://www.amd.com/en/legal/privacy.html">Privacy Policy</a>
+        <a class="nav-link1 text-light fw-light pt-3" href="https://www.amd.com/en/legal/copyright.html">Terms and Conditions</a>
+      </div>
+  
+      </div>
+          <hr>
+  
+            <small class="text-secondary f2-light">© 2024 Advanced Micro Devices, Inc.</small>
+           </p>
+          </hr>
+      </footer>
+    </section>
       
     </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
