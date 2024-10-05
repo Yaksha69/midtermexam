@@ -128,7 +128,7 @@ body{
 
 .carousel {
   position: relative;
-  background-image: url('assets/backshow.jpg'); 
+  background-image: url('./assets/backshow.jpg'); 
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -212,14 +212,14 @@ input[type="checkbox"]:checked + label .flip-card-inner {
 }
 .onion {
   position: relative;
-  background-image: url('assets/antbackground.avif'); 
+  background-image: url('./assets/antbackground.avif'); 
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
 }
 .Pimage-container {
   position: relative;
-  background-image: url('assets/exlntbg.jpg'); 
+  background-image: url('./assets/exlntbg.jpg'); 
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -249,7 +249,7 @@ input[type="checkbox"]:checked + label .flip-card-inner {
 }
 .riceup {
   position: relative;
-  background-image: url('assets/2792686-red-black-chevrons-short-background.avif'); 
+  background-image: url('./assets/2792686-red-black-chevrons-short-background.avif'); 
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -289,7 +289,7 @@ input[type="checkbox"]:checked + label .flip-card-inner {
 }
 .contacts {
   position: relative;
-  background-image: url('assets/contacts.jpg'); 
+  background-image: url('./assets/contacts.jpg'); 
   background-size: cover; 
   background-position: center;
   background-repeat:repeat;
