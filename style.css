@@ -274,7 +274,7 @@ input[type="checkbox"]:checked + label .flip-card-inner {
 }
 
 .ricep{
-  font-size: 2vh;
+  font-size: 2vw;
   margin-bottom: 10%;
   text-align: left;
   color: white;
